@@ -47,15 +47,22 @@ header {
 }
 
 header ul {
-    display:flex;
+    display: flex;
 }
 
 header ul li {
     list-style-type: none;
-    margin; 0px 10px;
+    margin: 0px 10px;
 }
 
 header ul li a {
     /* js reactive buttons*/
     text-decoration: none;
+    font-weight: 500;
+    color: whitesmoke;
+    padding: 8px 15px;
 }
+
+audio::-webkit-media-controls-panel {
+    background-color: #56AEFF;
+  }
