@@ -1,11 +1,11 @@
 section {
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('images/Wall-of-gains-light-mode.jpg');
+    background-image: url('images/Wall-of-gains-light-mode-background.png');
     background-size: cover;
     background-position: center;
-    background-attachment:fixed;
+    background-attachment: fixed;
     padding: 50px;
 }
