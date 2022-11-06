@@ -1,0 +1,21 @@
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("/css/images/Wall-of-gains-light-mode-background.png");
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 50px;
+}
+
+.container {
+    position: relative;
+    width: calc(100% - 100px);
+    min-height: calc(100vh - 280px);
+    min-height: 300px;
+    background: grey;
+    box-shadow: 0 15px 35px rgba(grey);
+    border-radius: 20px;
+}
