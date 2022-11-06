@@ -46,6 +46,34 @@ header {
     backdrop-filter: blur(10px);
 }
 
+audio {
+    display: flex;
+    height: 30px;
+    width: 115px;
+    top: 10px;
+    left: 10px;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: #56AEFF;
+}
+
+.audio-div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    max-height: 35px;
+    min-width: 300px;
+}
+
+.play-me {
+    position: relative;
+    left: 120px;
+    bottom: 40px;
+    color: white;
+
+}
+
 header ul {
     display: flex;
 }
@@ -61,8 +89,12 @@ header ul li a {
     font-weight: 500;
     color: whitesmoke;
     padding: 8px 15px;
+    border-radius: 25px;
 }
 
-audio::-webkit-media-controls-panel {
-    background-color: #56AEFF;
-  }
+header ul li a:hover,
+header ul li a:hover.active {
+    background-color: white;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    color: #56AEFF;
+}
