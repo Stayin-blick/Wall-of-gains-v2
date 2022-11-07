@@ -45,6 +45,7 @@ header {
     border-radius: 20px;
     box-shadow: 0 35px 35px rgb(0 0 0 / 50%);
     backdrop-filter: blur(10px);
+    z-index: 1;
 }
 
 audio {
@@ -187,6 +188,8 @@ header ul li a:hover.active {
     display: inline-flex;
     align-items: center;
     margin-left: 80px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .imgbox {
@@ -329,6 +332,7 @@ header ul li a:hover.active {
 }
 
 /* */
+
 .headings-box {
     transform: translateX(25px);
 }
@@ -529,3 +533,85 @@ width: calc(100%-90px);
     text-align: center;
     padding-left: 0px;
 }
+
+/* profit pic */
+
+.section-pics {
+    transform: translateY(2070px);
+    position: absolute;
+    width: calc(100% - 100px);
+    min-height: 300px;
+    background: linear-gradient(180deg, rgba(0,215,255,1) 0%, rgba(0,61,255,0.9668242296918768) 100%, rgba(173,169,169,1) 100%);
+    box-shadow: 0 35px 35px rgb(0 0 0);
+    border: 1px;
+    border-radius: 20px;
+    display: grid;
+    place-items: center;
+    padding: 50px;
+}
+
+.profit-pic-header {
+    position: absolute;
+}
+
+/**/
+.picture-container {
+    position: relative;
+    width: calc(100% - 100px);
+    min-height: calc(100vh - 280px);
+    min-height: 300px;
+    background: linear-gradient(180deg, rgba(0,215,255,1) 0%, rgba(0,61,255,0.9668242296918768) 100%, rgba(173,169,169,1) 100%);
+    box-shadow: 0 35px 35px rgb(0 0 0);
+    border: 1px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.picture-container-1 {
+    transform: translateY(120px);
+    display: inline-grid;
+}
+
+.slider {
+    height: 250px;
+    margin: auto;
+    position: relative;
+    width: 90%;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+}
+
+.slide-track {
+    display: flex;
+    width: calc(250px * 26);
+    animation: scroll 40s linear infinite;
+}
+
+.slide-track:hover {
+    animation-play-state: paused;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform:translate(calc(-250px * 13));
+    }
+}
+
+.slide {
+    display: flex;
+    padding: 15px;
+    width: 200px;
+    height: 250px;
+    perspective: 100px;
+}
+
+img {
+    width: 100%;
+}
+
