@@ -1,5 +1,6 @@
 html {
     font-family: "Avenir Next", "Avenir", sans-serif;
+    font-size: 1.2rem;
     color: white;
     background-image: url("/css/images/Wall-of-gains-light-mode-background.png");
     background-size: cover;
@@ -34,7 +35,7 @@ section {
 
 header {
     position: absolute;
-    top: -40px;
+    top: -85px;
     right: 20px;
     left: 20px;
     padding: 20px 50px;
@@ -548,6 +549,7 @@ width: calc(100%-90px);
     display: grid;
     place-items: center;
     padding: 50px;
+    height: 500px;
 }
 
 .profit-pic-header {
@@ -570,7 +572,7 @@ width: calc(100%-90px);
     padding: 50px;
 }
 .picture-container-1 {
-    transform: translateY(120px);
+    transform: translateY(98px);
     display: inline-grid;
 }
 
@@ -615,3 +617,37 @@ img {
     width: 100%;
 }
 
+/* educatoin */
+.education-wrapper {
+    position: relative;
+    width: calc(100% - 100px);
+    min-height: 300px;
+    background: linear-gradient(180deg, rgba(0,215,255,1) 0%, rgba(0,61,255,0.9668242296918768) 100%, rgba(173,169,169,1) 100%);
+    box-shadow: 0 35px 35px rgb(0 0 0);
+    border: 1px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    transform: translateY(2920px);
+    flex-wrap: wrap;
+}
+
+.split-iframe {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 225px;
+}
+
+.solana-tool {
+    display: inline-flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.eth-iframe {
+    
+}
