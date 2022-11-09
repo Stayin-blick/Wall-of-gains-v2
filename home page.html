@@ -26,10 +26,13 @@
             </div>
             <ul>
                   <li><a href="#home" class="active">Home</a></li>
-                  <li><a href="#who-are-we" class="active"> Wall Of Gains</a></li>
-                  <li><a href="#Education" class="active"> Education</a></summary>
-                  <li><a href="#profits" class="active"> Profits</a></li>
-                  <li><a href="#contact" class="active"> Contact</a></li>
+                  <li><a href="#wall-of-gains" class="active">Wall Of Gains</a></li>
+                  <li><a href="#profits" class="active">Profits</a></li>
+                  <li><a href="#Education" class="active">Education</a></li>
+                  <li><a href="membership.html">Membership</a></li>
+                  <li><a href="#contact" class="active">Contact</a></li>
+                  <li><a href="game section.html" class="active">Game Section</a></li>
+
               </ul>
           </header>
           <div class = "intro-content-box">
@@ -44,7 +47,7 @@
     </section>
 
   <!--team section--> 
-<section class="team-container">
+<section class="team-container" id="wall-of-gains">
   <div class="headings-box">
     <h2>The Founders</h2>
   </div>
@@ -291,7 +294,7 @@
 </section>
 
 <!--education-->
-<section class = "education-wrapper">
+<section class = "education-wrapper" id="Education">
   <header>
     <h2>Education</h2>
   </header>
@@ -304,8 +307,8 @@
   <div>
     <h3>Solana marketplaces</h3>
     <div class="split-iframe">
-      <iframe src="https://magiceden.io" title="Magic Eden homepage" width="300"></iframe>
-      <iframe src="https://hyperspace.xyz/" title="Hyperspace homepage" width="300"></iframe>
+      <iframe class="solana-iframe" src="https://magiceden.io" title="Magic Eden homepage" width="300"></iframe>
+      <iframe class="solana-iframe" src="https://hyperspace.xyz/" title="Hyperspace homepage" width="300"></iframe>
     </div>
     <div>
       <p>There are different companies that offer a place to buy and sell NFTs, above are two examples Magic eden and Coral Cube. Different marketplaces have different benefits one to have your eye on as a newcomer in the space are the fees associated with buying the NFT e.g. (Magic eden takes a 2% fee on NFTs sold, whereas Hyperspace takes only 1% so your able to keep more profits).</p>
@@ -328,61 +331,36 @@
     </div>
     <div>
       <p>come check out helpful tools to help you navigate through the space. Solsniper is a perfect tool to allow users to check an NFTs price history, current listings and more. discord is a place where Nfts communities hang out and talk. project founders use this as a way to communicate with their community keeping them up to date with recent developments and more.</p>
-      <ul class="solana-tool">
-          <li><a href="http://solsniper.xyz" target:_blank="">Solsniper</a></li>
-          <li><a href="https://discord.com" target:_blank="">Discord</a></li> 
-      </ul>
   </div>
+  </div>
+  <div>
+    <h3>Futures</h3>
+    <div class="future-iframe-wrap">
+      <iframe class="future-iframe" src="https://www.youtube.com/embed/VYWc9dFqROI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="different-marketplace-text">
+        <h3 class="marketplace-heading">Different Marketplaces</h3>
+        <ul class="future-list">
+          <li>
+            <a href="https://www.bybit.com/" target="_blank">Bybit</a>
+          </li>
+          <li>
+           <a href="https://www.binance.com/" target="_blank">Binance</a>
+          </li>
+          <li>
+           <a href="https://www.kucoin.com/" target="_blank">kucoin</a>
+          </li>
+          <li>
+           <a href="https://bingx.com/" target="_blank">BingX</a>
+          </li> 
+        </ul>
+      </div>
+    </div>
   </div>
 </section>
 
-
-<!--
-
-<div id="eth-marketplaces">
-  <h2> Ethereum marketplaces </h2>
-     
-  <div>
-    <div class="future-marketplace-text">
-      <p>
-        Rarible is another marketplace this is diferent to the ones we explored earlier, is this marketplace allows the user to buy and sell NFTs in either Solana, Tezos or Etheruem. by allowing user to use multiple tokens to mint, it brings a bigger community compared to some.
-      </p>
-    </div>
-    <iframe class="rarible" src="https://rarible.com" title="Rarible Homepage" width="300"></iframe>
-  </div>
-</div>
-<br>
-<div class="future-div">
-  <div id="futures">
-    <h2> Futures </h2>
-  </div>
-<br>
-  <iframe  class="video-float"src="https://www.youtube.com/embed/VYWc9dFqROI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  <div class="future-marketplace">
-    <div class="different-marketplace-text">
-    <h3 class="marketplace-heading">Different Marketplaces</h3>
-    <ul class="future-list">
-      <li>
-        <a href="https://www.bybit.com/" target="_blank">Bybit</a>
-      </li>
-      <li>
-       <a href="https://www.binance.com/" target="_blank">Binance</a>
-      </li>
-      <li>
-       <a href="https://www.kucoin.com/" target="_blank">kucoin</a>
-      </li>
-      <li>
-       <a href="https://bingx.com/" target="_blank">BingX</a>
-      </li> 
-    </ul>
-  </div>
-  </div>
-</div>    
-<br>
-
-<--Footer   
-<footer class="footer-area">
-  <div>
+<!--footer-->
+<section class="footer-area">
+  <div class="footer-style">
     <p>
       <h2>Join us today or miss the profits the choice is yours.</h2>
     </p>
@@ -391,15 +369,15 @@
     </div>
   </div>
 
-  <div footer-icons>
+  <div>
     <a href="https://discord.gg/GDCgsA8UuN" target="_blank"><i class="fa-brands fa-discord"></i></a>
     <a href="https://twitter.com/WallofGains" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
   </div>
 
-  <div class="up-arrow">
+  <div>
     <a href="#top"><i class="fa-solid fa-arrow-up"></i></a>
   </div>
-</footer>
+</section>
 </body>
 </html
 

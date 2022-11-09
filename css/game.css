@@ -1,0 +1,274 @@
+html {
+    font-family: "Avenir Next", "Avenir", sans-serif;
+    font-size: 1.2rem;
+    color: white;
+    background-image: url("/css/images/Wall-of-gains-light-mode-background.png");
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 50px;
+}
+
+.container {
+    position: relative;
+    width: calc(100% - 100px);
+    min-height: calc(100vh - 280px);
+    min-height: 300px;
+    background: linear-gradient(180deg, rgba(0,215,255,1) 0%, rgba(0,61,255,0.9668242296918768) 100%, rgba(173,169,169,1) 100%);
+    box-shadow: 0 35px 35px rgb(0 0 0);
+    border: 1px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+header {
+    position: absolute;
+    top: -85px;
+    right: 20px;
+    left: 20px;
+    padding: 20px 50px;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(0,215,255,1) 0%, rgba(0,61,255,0.9668242296918768) 100%, rgba(173,169,169,1) 100%);
+    border: 1px;
+    border-radius: 20px;
+    box-shadow: 0 35px 35px rgb(0 0 0 / 50%);
+    backdrop-filter: blur(10px);
+    z-index: 1;
+}
+
+audio {
+    display: flex;
+    height: 30px;
+    width: 115px;
+    top: 10px;
+    left: 10px;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: #56AEFF;
+}
+
+.audio-div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    max-height: 35px;
+    min-width: 300px;
+}
+
+.play-me {
+    position: relative;
+    left: 120px;
+    bottom: 40px;
+    color: white;
+
+}
+
+header ul {
+    display: flex;
+    margin-inline-start: 45px;
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-top: 50px;
+}
+
+header ul li {
+    list-style-type: none;
+    margin: 0px 10px;
+}
+
+header ul li a {
+    /* js reactive buttons check*/
+    text-decoration: none;
+    font-weight: 500;
+    color: whitesmoke;
+    padding: 8px 15px;
+    border-radius: 25px;
+}
+
+header ul li a:hover,
+header ul li a:hover.active {
+    background-color: white;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    color: #56AEFF;
+}
+
+.intro-content-box {
+    transform: translateX(-85px);
+    max-width: 850px;
+    box-shadow: 0 15px 30px rgb(0 0 0 / 10%);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    border: 1px;
+    background: linear-gradient(180deg, rgba(0,215,255,1) 0%, rgba(0,61,255,0.9668242296918768) 100%, rgba(173,169,169,1) 100%);
+    margin-left: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.intro-content-box h3 {
+    font-size: 2em;
+    color:white;
+}
+
+.intro-content-box p {
+    font-size: 1.2em;
+    border-radius: 30px;
+}
+
+.logo-div{
+    width: 100%;
+    position: relative;
+    margin: -85px;
+    transform: translateX(80px);
+}
+
+.logo {
+    max-width: 335px;
+    border-radius: 20px;
+}
+
+.headings-box {
+    display: block;
+    color: white;
+    z-index: 1;
+    transform: translate(-25px, -45px);
+    position: absolute;
+    top: -40px;
+    right: 20px;
+    left: 20px;
+    padding: 20px 50px;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(0,215,255,1) 0%, rgba(0,61,255,0.9668242296918768) 100%, rgba(173,169,169,1) 100%);
+    border: 1px;
+    border-radius: 20px;
+    box-shadow: 0 35px 35px rgb(0 0 0 / 50%);
+    backdrop-filter: blur(10px);
+}
+
+.coinflip-header {
+    position: relative;
+    top: -125px;
+    padding: 20px 50px;
+    background: linear-gradient(180deg, rgba(0,215,255,1) 0%, rgba(0,61,255,0.9668242296918768) 100%, rgba(173,169,169,1) 100%);
+    border: 1px;
+    border-radius: 20px;
+    box-shadow: 0 35px 35px rgb(0 0 0 / 50%);
+    backdrop-filter: blur(10px);
+}
+
+.cf-section {
+    min-height: 300px;
+    background: linear-gradient(180deg, rgba(0,215,255,1) 0%, rgba(0,61,255,0.9668242296918768) 100%, rgba(173,169,169,1) 100%);
+    box-shadow: 0 35px 35px rgb(0 0 0);
+    border: 1px;
+    border-radius: 20px;
+    width: fit-content;
+    height: fit-content;
+    max-width: 60%;
+    min-width: 40%;
+    display: inline-block;
+}
+
+.cf-container {
+    background: linear-gradient(180deg, rgba(224,251,252,1) 0%, rgba(152,193,217,1) 50%, rgba(61,90,128,1) 100%);
+    width: 400px;
+    padding: 50px;
+    transform: translate(-50% ,-50%);
+    top: 50%;
+    left: 50%;
+    box-shadow: 15px 30px 35px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+    position: relative;
+    transform: translate(-265px, -60px);
+    height: 550px;
+}
+
+.stats {
+    text-align: right;
+    color: black;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.coin {
+    height: 240px;
+    width: 240px;
+    position: relative;
+    margin: 50% auto;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    transform: translate(-11px, -130px);
+}
+
+.coin img {
+    width: 235px;
+}
+
+.heads, .tails {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.tails {
+    transform: rotateX(180deg);
+}
+@keyframes spin-tails {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform:rotateX(1980deg);
+    }
+}
+@keyframes spin-heads {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(2160deg);
+    }
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transform: translateY(-90px); 
+}
+
+button {
+    width: 120px;
+    padding: 10px 0;
+    border: 2.5px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#flip-button {
+    background-color: rgb(127,255,0);
+    color:white;
+}
+
+#flip-button:disabled {
+    background-color: #56AEFF;
+    border-color: white;
+    color: black;
+}
