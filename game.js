@@ -1,6 +1,6 @@
 let heads = 0;
 let tails = 0;
-let coin = document.getElementById(".coin");
-let flipCoin = document.getElementById("#flip-button");
+let coin = document.querySelector(".coin");
+let flipCoin = document.querySelector("#flip-button");
 
-console.log(coin,flipCoin);
+console.log(coin flipCoin);
