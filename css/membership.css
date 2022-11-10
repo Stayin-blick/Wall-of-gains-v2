@@ -1,3 +1,13 @@
+.header-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 50px;
+}
+
+
+
 .membership-container {
     position: relative;
     width: calc(100% - 100px);
@@ -12,13 +22,13 @@
     padding: 50px;
 }
 
-.membership-options {
+.section ,.membership-options {
+    display: flex;
+    justify-content: space-evenly;
     align-items: center;
     min-height: 100vh;
     padding: 50px;
     background: linear-gradient(180deg, rgba(0,215,255,1) 0%, rgba(0,61,255,0.9668242296918768) 100%, rgba(173,169,169,1) 100%);
-    display: flex;
-    justify-content: space-evenly;
     text-align: center;
 }
 
