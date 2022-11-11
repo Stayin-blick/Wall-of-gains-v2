@@ -11,12 +11,21 @@ let userChoice ='';
 
 /* snake script */
 
-import { update as updateSnake, draw as drawSnake, snakeSpeed } from './snake.js'
-
+import {update as updateSnake, draw as drawSnake, snakeSpeed, getSnakeHead, snakeIntersection} from './snake.js'
+import {update as updateFood, draw as drawFood} from './snake-food.js'
+import {outsideGrid} from './snake-grid.js'
 let lastRenderTime = 0 
+let gameOver = flase
 const gameBoard = document.getElementById('gameBoard')
 
 function main (currentTime) {
+    if (gameover) {
+        if (confirm('You lost. Press ok to restart')) {
+            window.location = '/'
+        }
+        retururn
+    }
+
     window.requestAnimationFrame(main);
     const secondsSinceLastRender = (currentTime - lastRenderTime) / 1000;
     if (secondsSinceLastRender < 2 / snakeSpeed) return 
@@ -31,9 +40,15 @@ window.requestAnimationFrame(main)
 
 function update () {
     updateSnake()
+    updateFood()
+    checkDeath()
 }
 
 function draw () {
     gameBoard.innerHTML = ''
     drawSnake(gameBoard);
+    drawFood(gameBoard);
+}
+function checkDeath () {
+    gameover = outsideGrid(getSnakeHead) || snakeIntersection() 
 }
