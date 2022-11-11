@@ -11,7 +11,7 @@ let userChoice ='';
 
 /* snake script */
 
-import { snakeSpeed } from '../snake game/snake.js'
+import {update as updateSnake, draw as drawSnake snakeSpeed } from './snake.js'
 
 let lastRenderTime = 0 
 
@@ -31,9 +31,9 @@ function main (currentTime) {
 window.requestAnimationFrame(main)
 
 function update () {
-
+    updateSnake()
 }
 
 function draw () {
-    
+    drawSnake ()
 }
