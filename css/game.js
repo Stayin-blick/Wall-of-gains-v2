@@ -11,8 +11,29 @@ let userChoice ='';
 
 /* snake script */
 
+import { snakeSpeed } from 'css/snake.js'
+
+let lastRenderTime = 0 
+
+
 function main (currentTime) {
     window.requestAnimationFrame(main);
-    console.log (currentTime);
+    const secondsSinceLastRender = (currentTime - lastRenderTime) / 1000;
+    if (secondsSinceLastRender < 2 / snakeSpeed) return 
+   
+    
+    console.log ('render');    
+    lastRenderTime =  currentTime;
+
+    update ()
+    draw ()
 }
 window.requestAnimationFrame(main)
+
+function update () {
+
+}
+
+function draw () {
+    
+}

@@ -1,0 +1,1 @@
+const snakeSpeed = 2 
