@@ -742,13 +742,3 @@ a {
     font-size: 3.5em;
 }
 
-@media (min-width:375px) {
-    html {
-
-    }
-}
-@media (min-width: 375px) {
-    body {
-}
-    
-}
