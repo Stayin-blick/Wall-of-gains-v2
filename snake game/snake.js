@@ -1,1 +1,1 @@
-const snakeSpeed = 2 
+export const snakeSpeed = 2 
