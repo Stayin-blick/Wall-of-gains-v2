@@ -106,3 +106,88 @@ Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` f
 ---
 
 Happy coding!
+
+a countinuation from project 1 - building the Wall of Gains (nft group website)
+
+This website was created to help those that are in or are just entering the crypto space, our aim is to provide a place for people around the world to communicate share ideas and even possible make their own calls, but we also have our paid callers that have proven themselves time and time again that they know the space well. We welcome those of all ages in the cryptocurrency and NFT space, currently the space is full of teenagers that need the education we provide. the differences from the previous versions of the site are, new colour schemes, event listeners and the user of javascript to bring more interactivbility to our site allowing users to have a better experience.
+
+￼
+
+Features
+
+Navigation bar: to allow a quick jump to the sections that interest the reader with a back to top bottom at the bottom allowing those once they’ve swipe to quickly get back to the top of the page. Color contrast is perfect allowing for the user to easily pick up on the words which allows for an easy smooth experience. through the revamp the header bar has been made into a consistent styke through out the webpages given a proffesional out look. new skills were tried using animation through css allowing buttons to highlight once an action occurs.
+
+education 
+consist of our 3 main areas in our coumminty that we look towards genereating profit, we clearly split this into 3 clear sections allowing those to either get a focused understanding of of their chosen asset to invest in or to develop a broader knowdlage base allowing for more opportunity to make profit. The audio file is a nice relaxing song as those first entering the space may be nervous so this was implemented to help settle nerves and help the user as they approach a new concept.
+￼
+
+About us:
+
+this section provides the public on what our aims are as a community and a little sample of what we want to provid other what the discord group is and what they are planning to do the fact of that “64%” is there could also intrigue users and keep them hooked as they scroll down the page. Gives a little update for what we are currently doing and providing utility to the community.
+
+￼ Video/links:
+
+Videos and links are used within this website as not everyone is a reading type of learner we have listeners and visual learners as well, so to cater for our audience as well as trying to introduce more elements to keep the user engaged we embed a YouTube beginners guide from Coin Bureau, where he starts right at the beginning and explore the world of crypto currency. Those that prefer to learn by doing they can easily access one of the market places link in the html to explore. we have links to other pages which are located in the header this will take users to our memembership tab, currently we arent open for memberships but the page has been built, as we have two aspiring devlopers on the team we are slowly going to build and optimize the 'game section' as we develop
+
+￼ Contact us:
+
+As we are a community we want our users to be able to access and ask us questions any time of the day to make this achievable all of our team members personal twitter accounts are hyperlinked within their own template and we also have a link to the discord and twitter for Wall Of Gains. As the team members are from all around the world we will always respond quick.
+
+unfixable Bugs:
+
+I ran into a few bugs along the way, that prevented myself from being strict with time management, (hospital admission a illness), already working on this fixes in a relaxed setting as this will be used for our official website.
+
+
+Deployment:
+
+This site was deployed to GitHub pages. First in the Github repository, navigate to settings tab then select master branch in the source section. Select master branch and link is generated.
+
+Validator Testing
+HTML
+these errors can be grouped into 9 seperate catergories through the official W3C validator
+CSS
+shown that 5 errors  were found when passing through the official (Jigsaw) validator
+JavaScript:
+No errors were found when passing through the official Jshint validator
+- The following metrics were returned:
+- There are 22 functions in this file.
+- Function with the largest signature take 2 arguments, while the median is 0.
+- Largest function has 10 statements in it, while the median is 1.
+- The most complex function has a cyclomatic complexity value of 4 while the median is 1.
+
+
+Credits
+In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
+i used all resources to help me grow and to build the website from forums to websites tutorials and walk through, even other experienced developers have given 30 mins for a one on one call.
+
+Team twitter links:
+
+https://twitter.com/nkk_sol
+https://twitter.com/CryptoChrisSol
+https://twitter.com/CryptoSim66
+https://twitter.com/chasemoney4Iife
+https://twitter.com/crypto_blick
+https://twitter.com/CyberWolf_gr
+Solana marketplaces
+
+https://magiceden.io
+https://hyperspace.xyz/
+Solana tools
+
+http://solsniper.xyz
+https://discord.com
+YouTube
+
+https://www.youtube.com/embed/VYWc9dFqROI
+Cryptocurrency marketplaces
+
+https://www.bybit.com
+https://www.binance.com/
+https://www.kucoin.com/
+https://bingx.com/
+Discord invite to server :
+
+https://discord.gg/GDCgsA8UuN
+Wall of Gains twitter:
+
+https://twitter.com/WallofGains
