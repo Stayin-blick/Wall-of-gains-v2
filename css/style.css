@@ -92,7 +92,6 @@ header ul li {
 }
 
 header ul li a {
-    /* js reactive buttons check*/
     text-decoration: none;
     font-weight: 500;
     color: whitesmoke;
