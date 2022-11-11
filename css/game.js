@@ -15,11 +15,11 @@ import {update as updateSnake, draw as drawSnake, snakeSpeed, getSnakeHead, snak
 import {update as updateFood, draw as drawFood} from './snake-food.js'
 import {outsideGrid} from './snake-grid.js'
 let lastRenderTime = 0 
-let gameOver = flase
+let gameOver = false
 const gameBoard = document.getElementById('gameBoard')
 
 function main (currentTime) {
-    if (gameover) {
+    if (gameOver) {
         if (confirm('You lost. Press ok to restart')) {
             window.location = '/'
         }
@@ -50,5 +50,5 @@ function draw () {
     drawFood(gameBoard);
 }
 function checkDeath () {
-    gameover = outsideGrid(getSnakeHead) || snakeIntersection() 
+    gameOver = outsideGrid(getSnakeHead) || snakeIntersection() 
 }

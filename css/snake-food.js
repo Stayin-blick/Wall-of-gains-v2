@@ -1,11 +1,11 @@
-import {onsnake, expandsnake} from "./snke-food"
-import {randomGrifPosition} from './snake-grid'
+import {onSnake, expandSnake} from "./snake.js"
+import {randomGridPosition} from "./snake-grid.js"
 let food ={x:0 ,y:0};
-const expansion-rate = 1;
+const EXPANSION_RATE = 1;
 
 export function update () {
     if (onSnake(food)) {
-        expandsnake(expansion-rate)
+        expandSnake(EXPANSION_RATE)
         food = getRandomFoodPosition()
     }
 }   
@@ -19,9 +19,9 @@ export function draw(gameBoard) {
 }
 
 function getRandomFoodPosition () {
-    let nweFoodPosition
-    while (newFoodPosition == nul || onsnake(newFoodPosition)) {
-        newFoodPosition= randomGrifPosition ()
+    let newFoodPosition
+    while (newFoodPosition == null || onsnake(newFoodPosition)) {
+        newFoodPosition = randomGridPosition()
     }
     return newFoodPosition
 }

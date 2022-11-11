@@ -275,23 +275,22 @@ button {
 
 /*snake*/
 .snake-section {
-    min-height: 100vh;
-    width:100vw;
-    justify-content:  center;
+    justify-content: center;
     align-items: center;
     margin: 0;
     background: linear-gradient(180deg, rgba(0,215,255,1) 0%, rgba(0,61,255,0.9668242296918768) 100%, rgba(173,169,169,1) 100%);
     height: 100vh;
     width: 100vw;
+    display: flex;
 } 
 
 #game-board {
-    background: white;
+    background-color: lightgrey;
     width: 100vmin;
     height: 100vmin;
-    display: grid;
     grid-template-rows: repeat(21, 1fr);
     grid-template-columns: repeat(21, 1fr);
+    display: grid;
 }
 
 .snake {
@@ -304,3 +303,14 @@ button {
     border: .25vmin solid black;
 
 }
+
+min-height: 300px;
+    background: linear-gradient(180deg, rgba(0,215,255,1) 0%, rgba(0,61,255,0.9668242296918768) 100%, rgba(173,169,169,1) 100%);
+    box-shadow: 0 35px 35px rgb(0 0 0);
+    border: 1px;
+    border-radius: 20px;
+    width: fit-content;
+    height: fit-content;
+    max-width: 60%;
+    min-width: 40%;
+    display: inline-block;

@@ -1,13 +1,15 @@
-const grid-size = 21;
+const GRID_SIZE = 21;
 
-export function RandomGridPosition () {
+export function randomGridPosition () {
     return {
-        x: Math.floor(Math.random() * grid-size) + 1,
-        y: Math.floor(Math.random() * grid-size) + 1
+        x: Math.floor(Math.random() * GRID_SIZE) + 1,
+        y: Math.floor(Math.random() * GRID_SIZE) + 1
     }
 }
 
 export function outsideGrid(position) {
-    position.x < 1 || position.x > grid-size ||
-    position.y < 1 || position.x > grid-size ||
+    return (
+        position.x < 1 || position.x > GRID_SIZE ||
+        position.y < 1 || position.y > GRID_SIZE 
+    )
 }
