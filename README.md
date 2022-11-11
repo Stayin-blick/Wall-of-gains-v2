@@ -135,7 +135,7 @@ As we are a community we want our users to be able to access and ask us question
 
 unfixable Bugs:
 
-I ran into a few bugs along the way, that prevented myself from being strict with time management, (hospital admission a illness), already working on this fixes in a relaxed setting as this will be used for our official website.
+I ran into a few bugs along the way, that prevented myself from being strict with time management, (hospital admission a illness), already working on this fixes in a relaxed setting as this will be used for our official website. need to use more of my tutor and support but due to the restraints of work im not able to make any.
 
 
 Deployment:
