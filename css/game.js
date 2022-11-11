@@ -11,10 +11,10 @@ let userChoice ='';
 
 /* snake script */
 
-import {update as updateSnake, draw as drawSnake snakeSpeed } from './snake.js'
+import {update as updateSnake, draw as drawSnake, snakeSpeed } from './snake.js'
 
 let lastRenderTime = 0 
-
+const gameBoard = document.getElementById('gameBoard')
 
 function main (currentTime) {
     window.requestAnimationFrame(main);
@@ -35,5 +35,5 @@ function update () {
 }
 
 function draw () {
-    drawSnake ()
+    drawSnake(gameBoard);
 }
