@@ -11,7 +11,7 @@ let userChoice ='';
 
 /* snake script */
 
-import {update as updateSnake, draw as drawSnake, snakeSpeed } from './snake.js'
+import { update as updateSnake, draw as drawSnake, snakeSpeed } from './snake.js'
 
 let lastRenderTime = 0 
 const gameBoard = document.getElementById('gameBoard')
@@ -22,7 +22,6 @@ function main (currentTime) {
     if (secondsSinceLastRender < 2 / snakeSpeed) return 
    
     
-    console.log ('render');    
     lastRenderTime =  currentTime;
 
     update ()
@@ -35,5 +34,6 @@ function update () {
 }
 
 function draw () {
+    gameBoard.innerHTML = ''
     drawSnake(gameBoard);
 }
