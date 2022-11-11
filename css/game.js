@@ -11,7 +11,7 @@ let userChoice ='';
 
 /* snake script */
 
-import { snakeSpeed } from 'css/snake.js'
+import { snakeSpeed } from '../snake game/snake.js'
 
 let lastRenderTime = 0 
 
