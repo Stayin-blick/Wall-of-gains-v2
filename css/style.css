@@ -10,10 +10,14 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    max-width: 90%;
+    text-align: -webkit-center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
 
 section {
-    align-items: center;
-    padding: 50px;
     text-align: -webkit-center;
     max-width: 90%;
     margin-left: 0;
@@ -22,15 +26,16 @@ section {
 }
 
 .container {
-    width: calc(100% - 100px);
+    width: 100%;
     min-height: 300px;
     background: linear-gradient(180deg, rgba(0,215,255,1) 0%, rgba(0,61,255,0.9668242296918768) 100%, rgba(173,169,169,1) 100%);
     box-shadow: 0 35px 35px rgb(0 0 0);
     border: 1px;
     border-radius: 20px;
-    display: flex;
-    padding: 50px;
+    display: inline-flex;
+    padding: 20px;
     flex-direction: column;
+    align-items: center;
 }
 
 header {
@@ -42,14 +47,16 @@ header {
     backdrop-filter: blur(10px);
     z-index: 1;
     transform: translateY(-65px);
+    max-width: 90%;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 90%;
 }
 
 audio {
-    display: flex;
+    display: inline-flex;
     height: 30px;
-    width: 115px;
-    top: 10px;
-    left: 10px;
+    max-width: 115px;
 }
 
 audio::-webkit-media-controls-panel {
@@ -57,27 +64,26 @@ audio::-webkit-media-controls-panel {
 }
 
 .audio-div {
-    position: relative;
-    top: 10px;
-    left: -520px;
     max-height: 35px;
     min-width: 300px;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .play-me {
-    position: relative;
-    left: 170px;
-    bottom: 40px;
     color: white;
-
+    display: contents;
 }
 
 header ul {
-    display: flex;
-    margin-inline-start: 45px;
-    margin-left: 0px;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+    max-width: 90%;
     padding-left: 0px;
-    margin-top: 50px;
 }
 
 header ul li {
@@ -101,7 +107,7 @@ header ul li a:hover.active {
 }
 
 .intro-content-box {
-    max-width: 850px;
+    max-width: 80%;
     box-shadow: 0 15px 30px rgb(0 0 0 / 10%);
     border-radius: 20px;
     backdrop-filter: blur(10px);
@@ -132,41 +138,34 @@ header ul li a:hover.active {
 }
 
 .headings-box {
-    display: block;
+    display: inline-block;
     color: white;
-    z-index: 1;
-    transform: translate(-25px, -45px);
-    position: absolute;
-    top: -40px;
-    right: 20px;
-    left: 20px;
     padding: 20px 50px;
-    justify-content: space-between;
-    align-items: center;
     background: linear-gradient(180deg, rgba(0,215,255,1) 0%, rgba(0,61,255,0.9668242296918768) 100%, rgba(173,169,169,1) 100%);
     border: 1px;
     border-radius: 20px;
     box-shadow: 0 35px 35px rgb(0 0 0 / 50%);
     backdrop-filter: blur(10px);
+    width: 80%;
+    position: relative;
+    top: 60px;
 }
 
 .team-container {
-    min-width: calc(100% - 100px);
-    min-height: 300px;
+    max-width: 90%;
     background: linear-gradient(180deg, rgba(0,215,255,1) 0%, rgba(0,61,255,0.9668242296918768) 100%, rgba(173,169,169,1) 100%);
     box-shadow: 0 35px 35px rgb(0 0 0);
     border: 1px;
     border-radius: 20px;
     display: inline-flex;
-    justify-content: space-around;
     align-items: center;
-    padding: 50px;
-    flex-wrap: wrap;
     text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 .card {
     position: relative;
-    width: 300px;
+    width: 30%;
     height: 400px;
     background: linear-gradient(180deg, rgba(224,251,252,1) 0%, rgba(152,193,217,1) 50%, rgba(61,90,128,1) 100%);
     transform-style: preserve-3d;
@@ -176,9 +175,10 @@ header ul li a:hover.active {
     transition: 1s;
     display: inline-flex;
     align-items: center;
-    margin-left: 80px;
     margin-top: 30px;
     margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .imgbox {
@@ -302,7 +302,7 @@ header ul li a:hover.active {
 .profit-container {
     margin: 0;
     box-sizing: border-box;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     flex-wrap: wrap;
     padding: 40px 0;
@@ -311,6 +311,8 @@ header ul li a:hover.active {
     box-shadow: 0 35px 35px rgb(0 0 0);
     border: 1px;
     border-radius: 20px;
+    max-width: 100%;
+    justify-content: center;
 }
 
 .callers-cards {
@@ -323,10 +325,6 @@ header ul li a:hover.active {
 
 /* */
 
-.headings-box {
-    transform: translateX(25px);
-}
-
 .caller-content-box {
     box-shadow: 0 15px 30px rgb(0 0 0 / 10%);
     border-radius: 20px;
@@ -337,17 +335,21 @@ header ul li a:hover.active {
     padding-left: 20px;
     padding-right: 20px;
     width: calc(100% - 100px);
-    height: 100px;
     text-align: center;
     position: relative;
     padding-top: 20px;
-    transform: translateX(25px);
+    padding-bottom: 20px;
 }
 
+.callers-container {
+    display: inline-flex;
+    max-width: 80%;
+    justify-content: center;
+}
 
 .profit-container .caller-box {
     position: relative;
-    width: 320px;
+    max-width: 20%;
     height: 400px;
     display: flex;
     align-items: center;
@@ -517,9 +519,7 @@ width: calc(100%-90px);
 /* profit pic */
 
 .section-pics {
-    transform: translateY(2070px);
-    position: absolute;
-    width: calc(100% - 100px);
+    max-width: 90%;
     min-height: 300px;
     background: linear-gradient(180deg, rgba(0,215,255,1) 0%, rgba(0,61,255,0.9668242296918768) 100%, rgba(173,169,169,1) 100%);
     box-shadow: 0 35px 35px rgb(0 0 0);
@@ -528,11 +528,7 @@ width: calc(100%-90px);
     display: grid;
     place-items: center;
     padding: 50px;
-    height: 500px;
-}
-
-.profit-pic-header {
-    position: absolute;
+    height: 700px;
 }
 
 /**/
@@ -551,24 +547,29 @@ width: calc(100%-90px);
     padding: 50px;
 }
 .picture-container-1 {
-    transform: translateY(98px);
     display: inline-grid;
+    height: 60vh;
 }
 
 .slider {
-    height: 250px;
+    height: 600px;
     margin: auto;
     position: relative;
     width: 90%;
     display: grid;
     place-items: center;
     overflow: hidden;
+    top: -110px;
 }
 
 .slide-track {
     display: flex;
     width: calc(250px * 26);
     animation: scroll 40s linear infinite;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
 }
 
 .slide-track:hover {
@@ -598,30 +599,30 @@ img {
 
 /* educatoin */
 .education-wrapper {
-    position: relative;
-    width: calc(100% - 100px);
+    max-width: calc(100% - 100px);
     min-height: 300px;
     background: linear-gradient(180deg, rgba(0,215,255,1) 0%, rgba(0,61,255,0.9668242296918768) 100%, rgba(173,169,169,1) 100%);
     box-shadow: 0 35px 35px rgb(0 0 0);
     border: 1px;
     border-radius: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 50px;
-    transform: translateY(2920px);
     flex-wrap: wrap;
 }
 
 .solana-iframe {
-    width: 580px;
     height: 250px;
+    margin-bottom: 40px;
+    width: 80%;
 }
 
 .split-iframe {
-    display: inline-block;
-    height: 225px;
-    max-width: 500px;
+    display: inline-flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
 }
 
 .solana-tool {
@@ -650,12 +651,12 @@ img {
 }
 
 .future-iframe {
-    width: 390px;
-    height: 250px;
+    min-width: 60vh;
+    min-height: 30vh;
 }
 
 .different-marketplace-text {
-    max-width: 205px;
+    max-width: 100%;
     border: 5px;
     border-color: white;
     border-style: dashed;
@@ -694,12 +695,10 @@ a {
     backdrop-filter: blur(10px);
     align-content: center;
     justify-items: center;
-    transform: translateY(2911px);
     min-height: unset;
     position: sticky;
     width: fit-content;
     display: grid;
-    left: 270px;
 }
 
 .footer-style {
@@ -726,4 +725,19 @@ a {
     text-align: center;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 425px) {
+    .future-iframe {
+        display: none;
+    }
+
+    .callers-container{
+        display: none;
+    }
+
+    .play-me {
+        display: none;
+    }
 }

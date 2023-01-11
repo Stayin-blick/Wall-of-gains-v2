@@ -1,11 +1,56 @@
 html {
     font-family: "Avenir Next", "Avenir", sans-serif;
+    font-size: 1.2rem;
     color: white;
-    background-image: url(/css/images/Wall-of-gains-light-mode-background.png);
+    background-image: url("/css/images/Wall-of-gains-light-mode-background.png");
     background-size: cover;
     background-repeat: repeat-y;
     background-position: center;
     background-attachment: fixed;
+    scroll-behavior: smooth;
+}
+
+body {
+    max-width: 90%;
+    text-align: -webkit-center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.header-section {
+    text-align: -webkit-center;
+    max-width: 90%;
+    margin-left: 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.membership-container {
+    width: 100%;
+    min-height: 300px;
+    background: linear-gradient(180deg, rgba(0,215,255,1) 0%, rgba(0,61,255,0.9668242296918768) 100%, rgba(173,169,169,1) 100%);
+    box-shadow: 0 35px 35px rgb(0 0 0);
+    border: 1px;
+    border-radius: 20px;
+    display: inline-flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    padding: 20px 50px;
+    background: linear-gradient(180deg, rgba(0,215,255,1) 0%, rgba(0,61,255,0.9668242296918768) 100%, rgba(173,169,169,1) 100%);
+    border: 1px;
+    border-radius: 20px;
+    box-shadow: 0 35px 35px rgb(0 0 0 / 50%);
+    backdrop-filter: blur(10px);
+    z-index: 1;
+    transform: translateY(-65px);
+    max-width: 90%;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 90%;
 }
 .header-section {
     display: flex;
@@ -30,16 +75,18 @@ html {
 }
 
 .membership-options {
-    display: flex;
-    align-items: center;
-    min-height: 100vh;
-    padding: 50px;
     background: linear-gradient(180deg, rgba(0,215,255,1) 0%, rgba(0,61,255,0.9668242296918768) 100%, rgba(173,169,169,1) 100%);
-    text-align: center;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    box-shadow: 0 35px 35px rgb(0 0 0);
     border-radius: 20px;
+    display: inline-flex;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .membership-container .membership-card {
@@ -116,4 +163,10 @@ sup {
     border-radius: 20px;
     text-decoration: none;
     font-weight: 200;
+}
+
+@media only screen and (min-width: 425px) {
+    .logo{
+        display: none;
+    }
 }
