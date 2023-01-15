@@ -128,7 +128,7 @@ header ul li a:hover.active {
     padding-right: 20px;
 }
 
-.intro-content-box h3 {
+.intro-contenat-box h3 {
     font-size: 2em;
     color:white;
 }
@@ -160,6 +160,23 @@ header ul li a:hover.active {
     display: inline-block;
     padding-right: 20px;
     padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.snake-button {
+    text-decoration: none;
+    font-weight: 500;
+    color: whitesmoke;
+    padding: 8px 15px;
+    border-radius: 25px;
+}
+
+a.snake-button:hover,
+a.snake-button:hover.active {
+    background-color: white;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 10%);
+    color: #56AEFF;
 }
 
 .headings-box {
