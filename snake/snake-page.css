@@ -1,0 +1,55 @@
+html {
+    font-family: "Avenir Next", "Avenir", sans-serif;
+    font-size: 1.2rem;
+    color: white;
+    background-image: url(/css/images/Wall-of-gains-light-mode-background.png);
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body {
+    text-align: -webkit-center;
+}
+
+header {
+    padding: 20px 50px;
+    background: linear-gradient(180deg, rgba(0,215,255,1) 0%, rgba(0,61,255,0.9668242296918768) 100%, rgba(173,169,169,1) 100%);
+    border: 1px;
+    border-radius: 20px;
+    box-shadow: 0 35px 35px rgb(0 0 0 / 50%);
+    backdrop-filter: blur(10px);
+    max-width: 90%;
+}
+
+.snake-section {
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background: linear-gradient(180deg, rgba(0,215,255,1) 0%, rgba(0,61,255,0.9668242296918768) 100%, rgba(173,169,169,1) 100%);
+    border-radius: 20px;
+    display: flex;
+    height: 90vh;
+    width: 90vw;
+}
+
+#game-board {
+    background-color: lightgrey;
+    width: 100vmin;
+    height: 100vmin;
+    grid-template-rows: repeat(21, 1fr);
+    grid-template-columns: repeat(21, 1fr);
+    display: grid;
+}
+
+.snake {
+    background-color: red;
+    border: .25vmin solid black;
+}
+
+.food {
+    background-color:yellowgreen;
+    border: .25vmin solid black;
+
+}
