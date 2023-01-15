@@ -1,11 +1,7 @@
 import { getInputDirection } from "./snake-input.js";
 
 export const snakeSpeed = 2; 
-const snakeBody = [
-    { x: 10, y: 11},
-    { x: 11, y: 11},
-    { x: 12, y: 11}
-]
+const snakeBody = [{ x: 11, y: 11}]
 let newSegments = 0
 
 export function update () {
