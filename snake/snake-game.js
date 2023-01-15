@@ -5,7 +5,7 @@ import {update as updateFood, draw as drawFood} from './snake-food.js'
 import {outsideGrid} from './snake-grid.js'
 let lastRenderTime = 0 
 let gameOver = false
-const gameBoard = document.getElementById('gameBoard')
+const gameBoard = document.getElementById('game-board')
 
 function main (currentTime) {
     if (gameOver) {

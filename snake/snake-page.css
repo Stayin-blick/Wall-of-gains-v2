@@ -21,6 +21,10 @@ header {
     box-shadow: 0 35px 35px rgb(0 0 0 / 50%);
     backdrop-filter: blur(10px);
     max-width: 90%;
+    max-height: 1.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .snake-section {
@@ -36,8 +40,8 @@ header {
 
 #game-board {
     background-color: lightgrey;
-    width: 100vmin;
-    height: 100vmin;
+    width: 85vmin;
+    height: 85vmin;
     grid-template-rows: repeat(21, 1fr);
     grid-template-columns: repeat(21, 1fr);
     display: grid;
