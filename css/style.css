@@ -11,17 +11,15 @@ html {
 }
 
 body {
-    max-width: 90%;
+    max-width: 100%;
     text-align: -webkit-center;
-    margin-left: 50px;
-    margin-right: 50px;
 }
 
 section {
     text-align: -webkit-center;
-    max-width: 90%;
+    max-width: 100%;
     margin-left: 0;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     margin-top: 20px;
 }
 
@@ -152,7 +150,7 @@ header ul li a:hover.active {
 }
 
 .team-container {
-    max-width: 90%;
+    width: 100%;
     background: linear-gradient(180deg, rgba(0,215,255,1) 0%, rgba(0,61,255,0.9668242296918768) 100%, rgba(173,169,169,1) 100%);
     box-shadow: 0 35px 35px rgb(0 0 0);
     border: 1px;
@@ -165,8 +163,8 @@ header ul li a:hover.active {
 }
 .card {
     position: relative;
-    width: 30%;
-    height: 400px;
+    width: 25vw;
+    height: 55vh;
     background: linear-gradient(180deg, rgba(224,251,252,1) 0%, rgba(152,193,217,1) 50%, rgba(61,90,128,1) 100%);
     transform-style: preserve-3d;
     transform: perspective(1000px);
@@ -192,6 +190,7 @@ header ul li a:hover.active {
 
 .card:hover {
     transform: translateX(50%);
+    z-index: 1;
 }
 
 .card .imgbox {
@@ -300,7 +299,6 @@ header ul li a:hover.active {
 /* callers */
 
 .profit-container {
-    margin: 0;
     box-sizing: border-box;
     display: inline-flex;
     align-items: center;
@@ -440,10 +438,10 @@ width: calc(100%-90px);
 }
 
 .profit-container .caller-box:hover span::before {
-    top: -75px;
+    top: -78px;
     left: 50px;
-    width: 100px;
-    height: 100px;
+    width: 165px;
+    height: 65px;
     opacity: 1;
 }
 
@@ -466,10 +464,10 @@ width: calc(100%-90px);
 
 .profit-container .caller-box:hover span::after {
     bottom: -95px;
-    right: 50px;
-    width: 100px;
-    height: 100px;
+    right: 93px;
     opacity: 1;
+    width: 165px;
+    height: 65px;
 }
 
 @keyframes animate {
@@ -741,3 +739,71 @@ a {
         display: none;
     }
 }
+
+
+
+/*photo slider*/
+
+.picture-container-1 {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+  }
+  
+  .slider {
+    height: 80vw;
+    margin: auto;
+    position: relative;
+    width: 90%;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+  }
+  
+  .slide-track {
+      display: flex;
+      width: calc(40vw * 11);
+      animation: scroll 40s linear infinite;
+  }
+  
+  .slide-track:hover {
+    animation-play-state: paused;
+  }
+  @keyframes scroll {
+    0% {
+      transform: translate(0);
+    }
+    100% {
+      transform: translateX(calc(-40vw * 11));
+    }
+  } 
+  
+  .slide {
+    max-height: 35vh;
+    min-width: 40vw;
+    display: flex;
+    padding: 15px;
+    perspective: 100px;
+    align-items: center;
+  }
+  
+  img {
+    width: 100%;
+    transition: transform 1s;    
+    height: fit-content;
+  }
+  
+  img:hover {
+    transform: translateZ(20px);
+  }
+  
+  .slider::before {
+    left: 0;
+    top: 0;
+  }
+  
+  .slider::after {
+    right:0;
+    top:0;
+    transform: rotateZ(180deg);
+  }
