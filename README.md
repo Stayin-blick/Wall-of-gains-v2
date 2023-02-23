@@ -152,6 +152,8 @@ Validator testing (HTML & CSS): No errors using both HTML validator and CSS vali
 
 issues with the javascript element behind the interactive game snake, creating snake with the game section page but user input would only start the game and therefore not control the snake rather the page. therfore snake was taken to a different page and game section page will be used to add additional games that also open seperate webpages.
 
+further issues with images display files are linked properly and works in web preview doesnt work on deployed page. background color is used incase image doesnt display 
+
 Deployment:
 
 This site was deployed to GitHub pages. First in the Github repository, navigate to settings tab then select master branch in the source section. Select master branch and link is generated.
