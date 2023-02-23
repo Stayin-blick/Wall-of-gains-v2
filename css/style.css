@@ -544,56 +544,6 @@ width: calc(100%-90px);
     align-items: center;
     padding: 50px;
 }
-.picture-container-1 {
-    display: inline-grid;
-    height: 60vh;
-}
-
-.slider {
-    height: 600px;
-    margin: auto;
-    position: relative;
-    width: 90%;
-    display: grid;
-    place-items: center;
-    overflow: hidden;
-    top: -110px;
-}
-
-.slide-track {
-    display: flex;
-    width: calc(250px * 26);
-    animation: scroll 40s linear infinite;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-}
-
-.slide-track:hover {
-    animation-play-state: paused;
-}
-
-@keyframes scroll {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform:translate(calc(-250px * 13));
-    }
-}
-
-.slide {
-    display: flex;
-    padding: 15px;
-    width: 200px;
-    height: 250px;
-    perspective: 100px;
-}
-
-img {
-    width: 100%;
-}
 
 /* educatoin */
 .education-wrapper {
