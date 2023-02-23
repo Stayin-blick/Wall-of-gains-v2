@@ -8,6 +8,7 @@ html {
     background-position: center;
     background-attachment: fixed;
     scroll-behavior: smooth;
+    margin-top: 40px;
 }
 
 body {
@@ -21,6 +22,7 @@ section {
     margin-left: 0;
     margin-bottom: 25px;
     margin-top: 20px;
+    display: inline-flex;
 }
 
 .container {
@@ -518,7 +520,7 @@ width: calc(100%-90px);
 
 .section-pics {
     max-width: 90%;
-    min-height: 300px;
+    height: fit-content;
     background: linear-gradient(180deg, rgba(0,215,255,1) 0%, rgba(0,61,255,0.9668242296918768) 100%, rgba(173,169,169,1) 100%);
     box-shadow: 0 35px 35px rgb(0 0 0);
     border: 1px;
@@ -526,7 +528,6 @@ width: calc(100%-90px);
     display: grid;
     place-items: center;
     padding: 50px;
-    height: 700px;
 }
 
 /**/
@@ -757,3 +758,6 @@ a {
     top:0;
     transform: rotateZ(180deg);
   }
+
+
+
