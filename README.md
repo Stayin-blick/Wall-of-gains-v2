@@ -106,12 +106,14 @@ Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` f
 ---
 
 Happy coding!
+![image](https://user-images.githubusercontent.com/109948932/221011757-9334e3dd-1e33-4f6a-a675-7c1c77a9236b.png)
 
 an update of project 1 - building the Wall of Gains (nft group website)
 
-This website was created to help those that are in or are just entering the crypto space, our aim is to provide a place for people around the world to communicate share ideas and even possible make their own calls, but we also have our paid callers that have proven themselves time and time again that they know the space well. We welcome those of all ages in the cryptocurrency and NFT space, currently the space is full of teenagers that need the education we provide. the differences from the previous versions of the site are, new colour schemes, event listeners and the user of javascript to bring more interactivbility to our site allowing users to have a better experience.
-
 Wall of Gains
+
+![Screenshot 2023-02-23 at 19 36 27](https://user-images.githubusercontent.com/109948932/221012204-3eecfb7a-7415-405c-b51f-0796b6945406.png)
+
 
 This website is a version 2 of perviously submitted work to show skill development.
 
@@ -120,17 +122,24 @@ Wall of gains was created to help those that are in or are just entering the cry
 
 Features
 
-Navigation bar: to allow a quick jump to sections that interest the reader, whether its education or an interactive game of snake with a back to top arrow at the bottom of the page allowing those once they’ve reached the bottom of the site, to quickly navigate to the top of the page. Color contrast is perfect allowing for the user to easily pick up on the words which allows for an easy smooth experience. The audio file is a nice relaxing song as those first entering the space may be nervous as to how to spend their money in the crypocurrency ecosystem, so this was implemented to help settle nerves and help the user as they approach a new concept, its located at the top of the page which allows users to quickly identify and interact with.
+![Screenshot 2023-02-23 at 19 38 14](https://user-images.githubusercontent.com/109948932/221012359-56cec6d0-911d-40df-b40d-a2a5b9741d94.png)
+
+
+Navigation bar: to allow a quick jump to sections that interest the reader, whether its education or an interactive game of snake with a back to top arrow at the bottom of the page allowing those once they’ve reached the bottom of the site, to quickly navigate to the top of the page. Color contrast is perfect allowing for the user to easily pick up on the words which allows for an easy smooth experience this is further aided by hover styling. The audio file is a nice relaxing song as those first entering the space may be nervous as to how to spend their money in the crypocurrency ecosystem, so this was implemented to help settle nerves and help the user as they approach a new concept, its located at the top of the page which allows users to quickly identify and interact with.
 
 Who are we, what are we doing in this space
 
 About us:
 
-Gives us a description of what the discord group is and what they are planning to do the fact of that “64%” is there could also intrigue users and keep them hooked as they scroll down the page. Gives a little update for what we are currently doing and providing utility to the community.
+![Screenshot 2023-02-23 at 19 39 34](https://user-images.githubusercontent.com/109948932/221012770-69951bac-978a-48f6-8340-cd41daf77104.png)
 
-in ether Solana, Tezos or
+providers the users wiith a description of what the discord group is and what our aims are, the fact of that “64%” is there could also intrigue users and keep them hooked as they scroll down the page. Gives a little update for what we are currently doing and providing utility to the community.
+
+
 
 Video/links:
+
+![Screenshot 2023-02-23 at 19 43 07](https://user-images.githubusercontent.com/109948932/221013313-5570a93d-9ecc-43f8-bc8b-530fbb26fde3.png)
 
 Videos and links are used within this website as not everyone is a reading type of learner we have listeners and visual learners as well, so to cater for our audience as well as trying to introduce more elements to keep the user engaged we embed a YouTube beginners guide from Coin Bureau, where he starts right at the beginning and explore the world of crypto currency. Those that prefer to learn by doing they can easily access one of the market places link in the html to explore.
 
@@ -140,9 +149,22 @@ Contact us:
 
 As we are a community we want our users to be able to access and ask us questions any time of the day to make this achievable all of our team members personal twitter accounts are hyperlinked within their own template which opens in a new tab, we also have a link to the discord and twitter for Wall Of Gains. As the team members are from all around the world we will always respond quick.
 
+membership:
+in our community we offer packages to members of differing membership periods, membership will provide users more support when making trades in the crypo ecosystem
+
+![Screenshot 2023-02-23 at 19 43 07](https://user-images.githubusercontent.com/109948932/221013944-cbd780f9-f191-41af-9818-8617c8387c50.png)
+
+
 Game section:
 
 this will eventually consist of multiple games for users to brag about their score in our discord. currently Snake is the only playable game we have available. the user uses the arrow keys to controll the snake. the snake cannot go back on itself and it cant travel off screen both of these actions will result in a game over prompt, cancel will freeze game state while ok will restart the game.
+
+snake:
+![Screenshot 2023-02-23 at 19 47 03](https://user-images.githubusercontent.com/109948932/221014100-f972f61e-f702-4ab7-9d05-6fb5ea324c6a.png)
+![Screenshot 2023-02-23 at 19 48 12](https://user-images.githubusercontent.com/109948932/221014432-b9d048c8-50c7-4d95-b297-719c86a0283a.png)
+![Screenshot 2023-02-23 at 19 48 24](https://user-images.githubusercontent.com/109948932/221014459-302d7556-c88a-4222-acbd-5a82dcbe2257.png)
+
+once the user loads the page, onec an arrow input is recieved the snake starts to move to conrol the snake they use the arrow keey to move it around the gameboard, the user must avoid the snakes head going into its body aswell as the gameboard boundry. the aim of the game is to grow the snake length as long as possible, the food location is randomised and will not spawn underneath the snakes body.
 
 Bugs:
 
@@ -153,6 +175,16 @@ Validator testing (HTML & CSS): No errors using both HTML validator and CSS vali
 issues with the javascript element behind the interactive game snake, creating snake with the game section page but user input would only start the game and therefore not control the snake rather the page. therfore snake was taken to a different page and game section page will be used to add additional games that also open seperate webpages.
 
 further issues with images display files are linked properly and works in web preview doesnt work on deployed page. background color is used incase image doesnt display 
+
+unlimited photo slider:
+![Screenshot 2023-02-23 at 19 53 25](https://user-images.githubusercontent.com/109948932/221015481-9540386c-92a6-41b4-ad1d-3451dabd0718.png)
+![Screenshot 2023-02-23 at 19 52 45](https://user-images.githubusercontent.com/109948932/221015514-47f6f78a-cb5d-4412-8dbd-2c0b9605cc17.png)
+![Screenshot 2023-02-23 at 19 56 28](https://user-images.githubusercontent.com/109948932/221016175-287da251-e718-4a0a-8ca0-91dc9c1cd462.png)
+
+background image
+![Screenshot 2023-02-23 at 19 57 12](https://user-images.githubusercontent.com/109948932/221016303-babeae12-fac9-4f4d-80b1-228aa3c38ee4.png)
+![Screenshot 2023-02-23 at 19 57 54](https://user-images.githubusercontent.com/109948932/221016498-375b87b2-8d2e-468a-a95c-04711868916e.png)
+
 
 Deployment:
 
