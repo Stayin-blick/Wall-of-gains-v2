@@ -3,12 +3,12 @@ html {
     font-size: 1.2rem;
     color: white;
     background-image: url("/css/images/Wall-of-gains-light-mode-background.png");
-    background-size: cover;
     background-repeat: repeat-y;
     background-position: center;
     background-attachment: fixed;
     scroll-behavior: smooth;
     margin-top: 40px;
+    background-color: rgba(169, 169, 169, 0.453);
 }
 
 body {
