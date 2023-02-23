@@ -150,10 +150,9 @@ Contact us:
 As we are a community we want our users to be able to access and ask us questions any time of the day to make this achievable all of our team members personal twitter accounts are hyperlinked within their own template which opens in a new tab, we also have a link to the discord and twitter for Wall Of Gains. As the team members are from all around the world we will always respond quick.
 
 membership:
-in our community we offer packages to members of differing membership periods, membership will provide users more support when making trades in the crypo ecosystem
+in our community we offer packages to members of differing membership periods, membership will provide users more support when making trades in the crytpo ecosystem
 
-![Screenshot 2023-02-23 at 19 43 07](https://user-images.githubusercontent.com/109948932/221013944-cbd780f9-f191-41af-9818-8617c8387c50.png)
-
+![Screenshot 2023-02-23 at 19 43 57](https://user-images.githubusercontent.com/109948932/221017883-513a0353-fe7a-496c-a5a0-b1fb176564d6.png)
 
 Game section:
 
