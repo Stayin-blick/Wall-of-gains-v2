@@ -3,6 +3,7 @@ import {randomGridPosition} from "./snake-grid.js"
 let food = getRandomFoodPosition();
 const EXPANSION_RATE = 1;
 
+/*checks if snake is ontop of food if yes expand and generate new food position */
 export function update () {
     if (onSnake(food)) {
         expandSnake(EXPANSION_RATE)
@@ -18,6 +19,7 @@ export function draw(gameBoard) {
         gameBoard.appendChild (foodElement) 
 }
 
+/*random food position thats not on the snake*/
 function getRandomFoodPosition () {
     let newFoodPosition
     while (newFoodPosition == null || onSnake(newFoodPosition)) {

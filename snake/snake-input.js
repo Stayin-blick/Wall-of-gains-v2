@@ -1,6 +1,9 @@
+/*user controls*/
 let inputDirection = {x:0, y:0}
 let lastInputDirection = {x:0, y:0}
 
+/*when a key is down perform action
+prevents going back on snake position*/
 window.addEventListener('keydown', e => {
     switch (e.key) {
         case 'ArrowUp':

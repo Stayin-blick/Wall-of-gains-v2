@@ -7,6 +7,9 @@ let lastRenderTime = 0
 let gameOver = false
 const gameBoard = document.getElementById('game-board')
 
+/*game loop - 
+updating snake body and food location
+check for snake death*/
 function main (currentTime) {
     if (gameOver) {
         if (confirm('You lost. Press ok to restart.')) {
