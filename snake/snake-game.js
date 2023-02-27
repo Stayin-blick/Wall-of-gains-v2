@@ -9,7 +9,7 @@ const gameBoard = document.getElementById('game-board')
 
 /*game loop - 
 updating snake body and food location
-check for snake death*/
+check for snake death if snake head is outsidde the grid or intersect with its own body*/
 function main (currentTime) {
     if (gameOver) {
         if (confirm('You lost. Press ok to restart.')) {
